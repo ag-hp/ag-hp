@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 class ProfileTest {
 
 	@Test
-	void runFullStackCoreDump() {
+	void runFullStackInfo() {
 
 		String role = "Full-Stack Developer"
 
