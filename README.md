@@ -9,6 +9,7 @@
 <img width="50" height="50" alt="Windows" src="https://github.com/user-attachments/assets/40806087-e14a-4548-ad62-d5563a358eed"/> 
 <img width="50" height="50" alt="Linux" src="https://github.com/user-attachments/assets/2dbd815d-f88a-495a-bd9d-5fe89444e95a"/> 
 
+<br>
 
 ```java
 import lombok.extern.slf4j.Slf4j;
@@ -19,22 +20,23 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 @Slf4j
 class ProfileTest {
 
-		@Test
-		void runFullStackCoreDump() {
-			String role = "Full-Stack Developer"
+	@Test
+	void runFullStackCoreDump() {
+
+		String role = "Full-Stack Developer"
+
+		List<String> frontend = List.of("HTML", "CSS", "JavaScript");
+		List<String> backend = List.of("Java", "SQL", "JSON");
 		
-			List<String> frontend = List.of("HTML", "CSS", "JavaScript");
-			List<String> backend = List.of("Java", "SQL", "JSON");
+		String systems = "Windows & Linux";
 		
-			String systems = "Windows & Linux";
+		log.info(role);
+		log.info(frontend.toString());
+		log.info(backend.toString());
+		log.info(systems);
 		
-			log.info(role);
-			log.info(frontend.toString());
-			log.info(backend.toString());
-			log.info(systems);
-		
-			assertFalse(role.isEmpty());
-		}
+		assertFalse(role.isEmpty());
+	}
 }
 ```
 
