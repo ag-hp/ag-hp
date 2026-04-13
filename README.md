@@ -3,12 +3,8 @@
 <img width="45" height="45" alt="python" src="https://github.com/user-attachments/assets/c2b23297-b388-4d96-838b-05166b94ed5d"/> 
 <img width="50" height="50" alt="java" src="https://github.com/user-attachments/assets/44715c25-4283-4cfd-a4a3-25cb1b443f42"/>  
 
-
-
-
-
-<img width="35" height="35" alt="Windows" src="https://github.com/user-attachments/assets/40806087-e14a-4548-ad62-d5563a358eed"/> 
-<img width="35" height="35" alt="Linux" src="https://github.com/user-attachments/assets/2dbd815d-f88a-495a-bd9d-5fe89444e95a"/> 
+<img width="50" height="50" alt="Windows" src="https://github.com/user-attachments/assets/40806087-e14a-4548-ad62-d5563a358eed"/> 
+<img width="50" height="50" alt="Linux" src="https://github.com/user-attachments/assets/2dbd815d-f88a-495a-bd9d-5fe89444e95a"/> 
 
 
 
