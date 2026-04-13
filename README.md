@@ -1,7 +1,7 @@
 
 <img width="35" height="35" alt="Android2-removebg-preview" src="https://github.com/user-attachments/assets/50b23147-e209-42ba-ada8-8260c1cf71bc"/> 
 <img width="35" height="35" alt="sql" src="https://github.com/user-attachments/assets/84aa9722-9fb0-4b3b-bec2-72deb67c66b4"/> 
-<img width="30" height="30" alt="git" src="https://github.com/user-attachments/assets/94f3df09-5cc9-4f02-9a77-90af083cd8e2"/> 
+<img width="50" height="50" alt="git" src="https://github.com/user-attachments/assets/94f3df09-5cc9-4f02-9a77-90af083cd8e2"/> 
 
 <img width="150" height="150" alt="cba1370c-e1bb-4b37-be32-a4b2f4446b0e_removalai_preview" src="https://github.com/user-attachments/assets/0b2cb0e8-dd9b-4716-9061-00e5d3a88f67" />
 
