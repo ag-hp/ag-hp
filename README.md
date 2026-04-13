@@ -6,8 +6,7 @@
 <img width="50" height="50" alt="css" src="https://github.com/user-attachments/assets/69ede041-52e4-4341-af6f-5522f71624fd"/>
 <img width="50" height="50" alt="javascript" src="https://github.com/user-attachments/assets/273c625f-877f-4468-8365-85b94f15f6a6"/>
 <img width="50" height="50" alt="javascript" src="https://github.com/user-attachments/assets/4d5efbb0-a22b-4bee-ae5e-e7453551f40c" />
-<img width="50" height="50" alt="css" src="https://github.com/user-attachments/assets/ffab6f9f-c02d-4434-9149-8b4269fea476" />
-<img width="50" height="50" alt="html" src="https://github.com/user-attachments/assets/102e90ea-0b79-426b-bb9c-0a49cbd7369c" />
+
 
 
 <img width="35" height="35" alt="Captura_desde_2025-12-12_09-58-38-removebg-preview" src="https://github.com/user-attachments/assets/40806087-e14a-4548-ad62-d5563a358eed"/> <img width="30" height="30" alt="python" src="https://github.com/user-attachments/assets/c2b23297-b388-4d96-838b-05166b94ed5d"/> <img width="30" height="30" alt="java" src="https://github.com/user-attachments/assets/b28ef5cb-52a4-4bf3-adb9-6d7437045d84"/>  <img width="35" height="35" alt="Captura_desde_2025-12-12_09-58-31-removebg-preview(1)" src="https://github.com/user-attachments/assets/2dbd815d-f88a-495a-bd9d-5fe89444e95a"/> <img width="35" height="35" alt="JSON_logo" src="https://github.com/user-attachments/assets/96a157da-1aa3-464a-a696-5674b8847397"/> <img width="30" height="30" alt="java" src="https://github.com/user-attachments/assets/44715c25-4283-4cfd-a4a3-25cb1b443f42"/>  
