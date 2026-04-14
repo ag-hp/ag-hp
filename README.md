@@ -24,13 +24,11 @@ class ProfileTest {
 
 	@Test
 	void runFullStackInfo() {
-		// Preparación
 		String role = "Full-Stack Developer";
 		List<String> frontend = List.of("HTML", "CSS", "JavaScript");
 		List<String> backend = List.of("Java", "SQL", "JSON");
 		String systems = "Windows & Linux";
 		
-		// Ejecución
 		Profile profile = new Profile(role, frontend, backend, systems);
 		
 		log.info(role);
@@ -38,7 +36,6 @@ class ProfileTest {
 		log.info(backend.toString());
 		log.info(systems);
 		
-		// Aserciones
 		assertEquals(role, profile.getRole());
 		assertEquals(frontend, profile.getFrontendSkills());
 		assertEquals(backend, profile.getBackendSkills());
