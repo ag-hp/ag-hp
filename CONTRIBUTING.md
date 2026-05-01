@@ -1,13 +1,15 @@
-# Contribuyendo a mi proyecto
+# Contributing to my project
 
-¡Gracias por estar aquí! Toda ayuda es bienvenida.
+Thank you for being here! All contributions are welcome.
 
-### ¿Cómo puedes ayudar?
-1. **Reportar errores:** Si algo no funciona, abre un "Issue".
-2. **Sugerir mejoras:** ¿Tienes una idea genial? Cuéntamela en la sección de discusiones.
-3. **Enviar código:** 
-   - Haz un Fork del repositorio.
-   - Crea una rama para tu mejora (`git checkout -b mejora-increible`).
-   - Envía un Pull Request.
+### How can you help?
+1. **Report bugs:** If something isn't working, please open an "Issue."
+2. **Suggest improvements:** Have a great idea? Let me know in the discussions section.
+3. **Submit code:** 
+   - Fork the repository.
+   - Create a branch for your improvement (`git checkout -b amazing-improvement`).
+   - Submit a Pull Request.
 
-*Por favor, asegúrate de que tu código sea limpio y fácil de leer.*
+### Code Style
+To maintain consistency throughout the project, please ensure your code is clean and easy to read. Specifically for Java components:
+*   Use `@Data` and `@AllArgsConstructor` annotations for data models.
