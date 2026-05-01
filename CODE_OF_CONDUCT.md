@@ -1,15 +1,15 @@
-# Código de Conducta
+# Code of Conduct
 
-Como colaborador de este proyecto, me comprometo a fomentar un entorno libre de acoso para todos, independientemente de su edad, cuerpo, discapacidad, etnia, identidad de género, nivel de experiencia, nacionalidad, apariencia personal, raza, religión o identidad sexual.
+As a contributor to this project, I pledge to foster a harassment-free environment for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity.
 
-### Ejemplos de comportamiento positivo:
-* Usar un lenguaje acogedor e inclusivo.
-* Respetar los diferentes puntos de vista.
-* Aceptar críticas constructivas con elegancia.
+### Examples of positive behavior:
+* Using welcoming and inclusive language.
+* Respecting different viewpoints.
+* Accepting constructive criticism gracefully.
 
-### Ejemplos de comportamiento inaceptable:
-* Lenguaje o imágenes sexuales.
-* Comentarios insultantes o despectivos.
-* Acoso público o privado.
+### Examples of unacceptable behavior:
+* Sexual language or imagery.
+* Insulting or derogatory comments.
+* Public or private harassment.
 
-*Si ves algún comportamiento inapropiado, por favor repórtalo directamente conmigo.*
+*If you witness any inappropriate behavior, please report it directly to me.*
