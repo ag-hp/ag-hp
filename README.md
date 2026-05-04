@@ -1,5 +1,5 @@
 #  Welcome everyone !                 
-<img width="50" height="50" alt="gif" src="https://github.com/user-attachments/assets/c35e36ed-682a-4095-b53a-7f0ba048562b" />
+<img width="150" height="150" alt="gif" src="https://github.com/user-attachments/assets/c35e36ed-682a-4095-b53a-7f0ba048562b" />
 
 `$ echo "I'm Arpy"  >>  README.md`
 
