@@ -3,7 +3,6 @@
 
 ![Snake](https://raw.githubusercontent.com/arpy-2/arpy-2/output/snake-dark.svg)
 
----
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
@@ -29,4 +28,3 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
 </div>
 
----
