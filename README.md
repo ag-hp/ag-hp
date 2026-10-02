@@ -1,6 +1,6 @@
 <!-- CABECERA -->
 
-<img src="header.svg" alt="HELLO EVERYONE..." width="800" />
+<img src="header.svg" alt="WELCOME EVERYONE" width="800" />
 
 <div align="center">
 
