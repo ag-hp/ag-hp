@@ -1,7 +1,8 @@
 <!-- CABECERA -->
 
-<div align="center">
 <img src="header.svg" alt="HELLO EVERYONE..." width="800" />
+
+<div align="center">
 
 ![Snake](https://raw.githubusercontent.com/arpy-2/arpy-2/output/snake-dark.svg)
 
