@@ -8,23 +8,6 @@
 
 </div>
 
-## `> sobre_mi`
-
-```java
-public class AgHp {
-
-    String rol         = "Estudiante de DAM";
-    String estudios    = "Desarrollo de Aplicaciones Multiplataforma";
-    String[] stack     = {"Java", "HTML", "CSS", "JavaScript", "MySQL"};
-    String aprendiendo = "Docker, AWS y desarrollo multiplataforma";
-    String objetivo    = "Convertir ideas en software que funcione";
-
-    public static void main(String[] args) {
-        System.out.println("¡Hablemos!");
-    }
-}
-```
-
 ---
 
 ## `> stack_tecnologico`
@@ -51,6 +34,26 @@ public class AgHp {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="windows8 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java&theme=light" alt="Java" />
+  <img src="kotlin.svg" width="48" height="48" alt="Kotlin" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,linux,windows&perline=6" alt="Web y sistemas" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=androidstudio&theme=light" alt="Android Studio" />
+  <img src="https://skillicons.dev/icons?i=mysql,aws,docker,vscode,idea,figma&perline=6" alt="Herramientas" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,androidstudio&theme=light" alt="Java y Android Studio" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,docker&perline=5" alt="Web y Docker" />
+  <br/><br/>
+  <img src="colores.svg" alt="Kotlin, Linux, Windows, MySQL, AWS, VS Code, IntelliJ y Figma" />
 </div>
 
 ---
