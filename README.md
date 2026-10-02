@@ -1,9 +1,5 @@
 <!-- CABECERA -->
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=44&duration=3000&pause=2000&color=3FB950&center=true&vCenter=true&width=800&height=80&lines=%3E+HELLO+EVERYONE_" alt="HELLO EVERYONE..." />
-</div>
 
-<br/><br/>
 <div align="center">
 <img src="header.svg" alt="HELLO EVERYONE..." width="800" />
 
