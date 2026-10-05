@@ -23,5 +23,5 @@
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,docker&perline=5" alt="JavaScript, TypeScript, HTML, CSS y Docker" />
   <img src="https://skillicons.dev/icons?i=androidstudio&theme=light" alt="Android Studio" />
   <br/><br/>
-  <img src="colores.svg" alt="Kotlin, Linux, Windows, Android, MySQL, AWS, Visual Studio Code, IntelliJ IDEA y Figma" />
+<img src="https://raw.githubusercontent.com/ag-hp/ag-hp/main/colores.svg?v=2" alt="Kotlin, Linux, Windows, Android, MySQL, AWS, Visual Studio Code, IntelliJ IDEA y Figma" />
 </div>
