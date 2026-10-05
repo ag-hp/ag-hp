@@ -19,8 +19,9 @@
 ---
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,androidstudio&theme=light" alt="Java y Android Studio" />
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,docker&perline=5" alt="Web y Docker" />
+  <img src="https://skillicons.dev/icons?i=java&theme=light" alt="Java" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,docker&perline=5" alt="JavaScript, TypeScript, HTML, CSS y Docker" />
+  <img src="https://skillicons.dev/icons?i=androidstudio&theme=light" alt="Android Studio" />
   <br/><br/>
-  <img src="colores.svg" alt="Kotlin, Linux, Windows, MySQL, AWS, VS Code, IntelliJ y Figma" />
+  <img src="colores.svg" alt="Kotlin, Linux, Windows, Android, MySQL, AWS, Visual Studio Code, IntelliJ IDEA y Figma" />
 </div>
