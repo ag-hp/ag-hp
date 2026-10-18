@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/ag-hp"><img width="48px" alt="GitHub" title="GitHub" src="https://api.iconify.design/mdi/github.svg?color=%233FB950"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.linkedin.com/in/TU_USUARIO"><img width="48px" alt="LinkedIn" title="LinkedIn" src="https://api.iconify.design/mdi/linkedin.svg?color=%233FB950"/></a>
+  <a href="https://www.linkedin.com/in/ag-hp"><img width="48px" alt="LinkedIn" title="LinkedIn" src="https://api.iconify.design/mdi/linkedin.svg?color=%233FB950"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="mailto:tu_correo@ejemplo.com"><img width="48px" alt="Correo" title="Escríbeme un correo" src="https://api.iconify.design/mdi/email.svg?color=%233FB950"/></a>
 </p>
@@ -17,7 +17,6 @@
     <img alt="total stars" title="Estrellas totales en GitHub" src="https://custom-icon-badges.demolab.com/github/stars/ag-hp?color=3FB950&labelColor=2EA043&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAybDMuMSA2LjMgNi45IDEtNSA0LjkgMS4yIDYuOEwxMiAxNy44IDUuOCAyMWwxLjItNi44LTUtNC45IDYuOS0xeiIvPjwvc3ZnPgo%3D"/></a>
   <a href="https://github.com/ag-hp?tab=followers">
     <img alt="followers" title="Sígueme en GitHub" src="https://img.shields.io/github/followers/ag-hp?color=3FB950&labelColor=2EA043&style=for-the-badge&label=Follow&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxjaXJjbGUgY3g9IjkiIGN5PSI4IiByPSI0Ii8%2BPHBhdGggZD0iTTEgMjBjMC0zLjkgMy42LTcgOC03czggMy4xIDggN3oiLz48cGF0aCBkPSJNMTkgN2gydjNoM3YyaC0zdjNoLTJ2LTNoLTN2LTJoM3oiLz48L3N2Zz4K"/></a>
-  <a href="https://github.com/ag-hp">
     <img alt="visitors" title="Visitas al perfil" src="https://hits.sh/github.com/ag-hp/ag-hp.svg?style=for-the-badge&label=VISITORS&labelColor=2EA043&color=3FB950&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiA1QzcgNSAyLjcgOC4xIDEgMTIuNSAyLjcgMTYuOSA3IDIwIDEyIDIwczkuMy0zLjEgMTEtNy41QzIxLjMgOC4xIDE3IDUgMTIgNXptMCAxMi41YTUgNSAwIDEgMSAwLTEwIDUgNSAwIDAgMSAwIDEwem0wLThhMyAzIDAgMSAwIDAgNiAzIDMgMCAwIDAgMC02eiIvPjwvc3ZnPgo%3D"/></a>
 </p>
 
