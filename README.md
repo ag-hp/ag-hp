@@ -22,7 +22,7 @@
 <img src="divider.svg" width="100%" height="2" alt="">
 
 <details open>
-<summary><img src="tecnologias.svg" height="50" alt="Tecnologías y Herramientas"></summary>
+<summary><img src="tecnologias.svg" height="40" alt="Technologies and Tools"></summary>
 
 <p align="center">
   <img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white">
