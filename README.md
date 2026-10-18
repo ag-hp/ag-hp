@@ -21,7 +21,7 @@
 ---
 
 <details open>
-<summary><h2>Herramientas</h2></summary>
+<summary><h2>Tecnologías y Herramientas</h2></summary>
 
 <p align="center">
   <img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white">
