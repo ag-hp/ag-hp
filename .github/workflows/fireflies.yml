@@ -1,0 +1,45 @@
+name: fireflies
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/fireflies.mjs
+      - .github/workflows/fireflies.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fireflies
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generar SVG
+        run: node scripts/fireflies.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ag-hp
+
+      - name: Publicar en la rama fireflies
+        run: |
+          cd dist
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q -b fireflies
+          git add .
+          git commit -q -m "update fireflies"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" fireflies
