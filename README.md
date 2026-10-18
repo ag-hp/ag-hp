@@ -72,10 +72,3 @@
     </picture>
   </a>
 </p>
-
-
-<div align="center">
-  
-![Snake](https://raw.githubusercontent.com/arpy-2/arpy-2/output/snake-dark.svg)
-
-</div>
