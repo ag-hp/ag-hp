@@ -67,6 +67,18 @@
 
 ---
 
+<p align="center">
+  <a href="https://github.com/ag-hp">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-light.svg">
+      <img alt="fireflies: contribuciones de ag-hp" src="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-dark.svg" width="800">
+    </picture>
+  </a>
+</p>
+
+---
+
 <div align="center">
   
 ![Snake](https://raw.githubusercontent.com/arpy-2/arpy-2/output/snake-dark.svg)
