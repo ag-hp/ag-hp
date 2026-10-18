@@ -3,9 +3,9 @@
 
 <!-- ICONOS REDES SOCIALES -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/ag-hp"><img width="48px" alt="LinkedIn" title="LinkedIn" src="https://api.iconify.design/mdi/linkedin.svg?color=%233FB950"/></a>
+  <a href="https://www.linkedin.com/in/ag-hp"><img width="40px" alt="LinkedIn" title="LinkedIn" src="https://api.iconify.design/mdi/linkedin.svg?color=%233FB950"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="mailto:ariadna.ghpaniagua@gmail.com"><img width="48px" alt="Correo" title="Escríbeme un correo" src="https://api.iconify.design/mdi/email.svg?color=%233FB950"/></a>
+  <a href="mailto:ariadna.ghpaniagua@gmail.com"><img width="40px" alt="Correo" title="Escríbeme un correo" src="https://api.iconify.design/mdi/email.svg?color=%233FB950"/></a>
 </p>
 
 <!-- BADGES PROFILE -->
