@@ -24,7 +24,7 @@
 ---
 
 <details open>
-<summary><h2>Tecnologías y herramientas</h2></summary>
+<summary><h2>Herramientas</h2></summary>
 
 <p align="center">
   <img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white">
@@ -35,13 +35,16 @@
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF.svg?logo=kotlin&logoColor=white">
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack%20Compose-4285F4.svg?logo=jetpackcompose&logoColor=white">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white">
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6.svg?logo=css3&logoColor=white">
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6.svg?logo=css&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black">
+  <img alt="Scratch" src="https://img.shields.io/badge/Scratch-FF8C1A.svg?logo=scratch&logoColor=white">
   <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E.svg?logo=figma&logoColor=white">
   <img alt="draw.io" src="https://img.shields.io/badge/draw.io-F08705.svg?logo=diagramsdotnet&logoColor=white">
+  <img alt="SketchUp" src="https://img.shields.io/badge/SketchUp-005F9E.svg?logo=sketchup&logoColor=white">
   <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?logo=intellijidea&logoColor=white">
   <img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?logo=androidstudio&logoColor=white">
-  <img alt="Visual Studio Code" src="https://img.shields.io/badge/VS%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white">
+  <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white">
+  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D.svg?logo=arduino&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white">
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white">
   <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37.svg?logo=postman&logoColor=white">
@@ -50,15 +53,13 @@
   <img alt="JDBC" src="https://custom-icon-badges.demolab.com/badge/JDBC-007396.svg?logo=java&logoColor=white">
   <img alt="Hibernate" src="https://img.shields.io/badge/Hibernate-59666C.svg?logo=hibernate&logoColor=white">
   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28.svg?logo=firebase&logoColor=black">
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900.svg?logo=amazonaws&logoColor=white">
+  <img alt="AWS" src="https://custom-icon-badges.demolab.com/badge/AWS-FF9900.svg?logo=aws&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white">
   <img alt="Windows" src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6.svg?logo=windows11&logoColor=white">
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624.svg?logo=linux&logoColor=black">
+  <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84.svg?logo=android&logoColor=white">
   <img alt="Bash" src="https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white">
   <img alt="VirtualBox" src="https://img.shields.io/badge/VirtualBox-21416B.svg?logo=virtualbox&logoColor=white">
-  <img alt="Hardware" src="https://custom-icon-badges.demolab.com/badge/Hardware-525252.svg?logo=tools&logoColor=white">
-  <img alt="Redes LAN" src="https://custom-icon-badges.demolab.com/badge/Redes%20LAN-1BA0D7.svg?logo=wifi&logoColor=white">
-  <img alt="TCP/IP" src="https://custom-icon-badges.demolab.com/badge/TCP%2FIP-1BA0D7.svg?logo=wifi&logoColor=white">
   <img alt="Wireshark" src="https://img.shields.io/badge/Wireshark-1679A7.svg?logo=wireshark&logoColor=white">
   <img alt="Cisco Packet Tracer" src="https://img.shields.io/badge/Packet%20Tracer-1BA0D7.svg?logo=cisco&logoColor=white">
   <img alt="Microsoft Office" src="https://custom-icon-badges.demolab.com/badge/Paquete%20Office-D83B01.svg?logo=file-text&logoColor=white">
