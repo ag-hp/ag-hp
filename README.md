@@ -1,5 +1,5 @@
 <!-- CABECERA -->
-<img src="header.svg" alt="WELCOME EVERYONE" width="800" />
+<img src="header.svg" alt="WELCOME EVERYONE" width="485" />
 
 <!-- ICONOS REDES SOCIALES -->
 <p align="center">
