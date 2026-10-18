@@ -2,7 +2,7 @@
 
 <img src="header.svg" alt="WELCOME EVERYONE" width="800" />
 
-<!-- Iconos sociales -->
+<!-- ICONOS REDES SOCIALES -->
 <p align="center">
   <a href="https://github.com/ag-hp"><img width="48px" alt="GitHub" title="GitHub" src="https://api.iconify.design/mdi/github.svg?color=%233FB950"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;
@@ -11,8 +11,7 @@
   <a href="mailto:tu_correo@ejemplo.com"><img width="48px" alt="Correo" title="Escríbeme un correo" src="https://api.iconify.design/mdi/email.svg?color=%233FB950"/></a>
 </p>
 
----
-
+<!-- BADGES PROFILE -->
 <p align="center">
   <a href="https://github.com/ag-hp?tab=repositories&sort=stargazers">
     <img alt="total stars" title="Estrellas totales en GitHub" src="https://custom-icon-badges.demolab.com/github/stars/ag-hp?color=3FB950&labelColor=2EA043&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAybDMuMSA2LjMgNi45IDEtNSA0LjkgMS4yIDYuOEwxMiAxNy44IDUuOCAyMWwxLjItNi44LTUtNC45IDYuOS0xeiIvPjwvc3ZnPgo%3D"/></a>
