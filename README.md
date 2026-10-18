@@ -19,7 +19,8 @@
 
 <img src="divider.svg" width="100%" height="2" alt="">
 
-<img src="tecnologias.svg" height="40" alt="Technologies and Tools">
+<details>
+<summary><h2>Technologies and Tools</h2></summary>
 
 <p align="center">
   <img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white">
@@ -60,8 +61,9 @@
   <img alt="Microsoft Office" src="https://custom-icon-badges.demolab.com/badge/Paquete%20Office-D83B01.svg?logo=file-text&logoColor=white">
   <img alt="WordPress" src="https://img.shields.io/badge/WordPress-21759B.svg?logo=wordpress&logoColor=white">
 </p>
+</details>
 
-<img src="divider.svg" width="100%" height="2" alt="">
+---
 
 <p align="center">
   <a href="https://github.com/ag-hp">
