@@ -69,24 +69,29 @@ function render(weeks, t) {
     for (const d of days) {
       i++;
       let style = '', cls = 'c';
-      if (d.level > 0) { // parpadeo: fuerte en el verde más claro, leve en el resto
-        const strong = d.level === 4;
-        const dur = strong ? 2.2 + hash(i) * 1.4 : 3.2 + hash(i) * 1.8;
-        const del = hash(i + 999) * 2.5;
-        cls += strong ? ' s' : ' w';
-        style = ` style="animation-duration:${dur.toFixed(2)}s;animation-delay:${del.toFixed(2)}s"`;
+      if (d.level > 0) { // luciérnagas: TODOS los cuadros verdes se encienden y apagan
+        const dur = (2 + hash(i) * 2.2).toFixed(2) + 's';   // entre 2 y 4,2 s
+        const del = (hash(i + 999) * 4).toFixed(2) + 's';   // cada uno empieza en un momento distinto
+        const glow = d.level < 4; // los verdes oscuros además se iluminan hasta el verde más claro
+        cls += glow ? ` f l${d.level}` : ' f';
+        style = glow
+          ? ` style="animation-duration:${dur},${dur};animation-delay:${del},${del}"`
+          : ` style="animation-duration:${dur};animation-delay:${del}"`;
       }
       cells += `<rect class="${cls}" x="${LEFT + w * PITCH}" y="${TOP + d.weekday * PITCH}" width="${CELL}" height="${CELL}" rx="2" fill="${t.levels[d.level]}"${style}/>`;
     }
     cols += `<g>${cells}</g>`;
   });
 
+  const L = t.levels;
   const css = `
-.s,.w{animation-timing-function:ease-in-out;animation-iteration-count:infinite}
-.s{animation-name:twS}.w{animation-name:twW}
-@keyframes twS{0%,100%{opacity:1}50%{opacity:.3}}
-@keyframes twW{0%,100%{opacity:1}50%{opacity:.75}}
-@media (prefers-reduced-motion:reduce){.s,.w{animation:none!important}}`;
+.f{animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-name:fly}
+.f.l1{animation-name:fly,glow1}.f.l2{animation-name:fly,glow2}.f.l3{animation-name:fly,glow3}
+@keyframes fly{0%,100%{opacity:.15}45%{opacity:1}}
+@keyframes glow1{0%,100%{fill:${L[1]}}45%{fill:${L[4]}}}
+@keyframes glow2{0%,100%{fill:${L[2]}}45%{fill:${L[4]}}}
+@keyframes glow3{0%,100%{fill:${L[3]}}45%{fill:${L[4]}}}
+@media (prefers-reduced-motion:reduce){.f{animation:none!important}}`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="fireflies: contribuciones de ${USER} en el último año">
 <title>fireflies · contribuciones de ${USER}</title>
