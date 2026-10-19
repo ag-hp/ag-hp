@@ -72,7 +72,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-light.svg">
-      <img alt="fireflies: contribuciones de ag-hp" src="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-dark.svg" width="800">
+      <img alt="fireflies: contribuciones de ag-hp" src="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-dark.svg" width="1000">
     </picture>
   </a>
 </p>
