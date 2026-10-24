@@ -68,6 +68,16 @@
 ---
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/languages/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/languages/languages-light.svg">
+    <img alt="languages: lenguajes más usados por ag-hp" src="https://raw.githubusercontent.com/ag-hp/ag-hp/languages/languages-dark.svg" width="830">
+  </picture>
+</p>
+
+---
+
+<p align="center">
   <a href="https://github.com/ag-hp">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ag-hp/ag-hp/fireflies/fireflies-dark.svg">
