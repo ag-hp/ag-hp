@@ -1,6 +1,6 @@
 <!-- CABECERA -->
 <p align="center">
-<img src="header.svg" alt="WELCOME EVERYONE" width="485" />
+<img src="assets/header.svg" alt="WELCOME EVERYONE" width="485" />
 </p>
 
 <!-- ICONOS REDES SOCIALES -->
@@ -19,7 +19,7 @@
     <img alt="visitors" title="Visitas al perfil" src="https://hits.sh/github.com/ag-hp/ag-hp.svg?style=for-the-badge&label=VISITORS&labelColor=2EA043&color=3FB950&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiA1QzcgNSAyLjcgOC4xIDEgMTIuNSAyLjcgMTYuOSA3IDIwIDEyIDIwczkuMy0zLjEgMTEtNy41QzIxLjMgOC4xIDE3IDUgMTIgNXptMCAxMi41YTUgNSAwIDEgMSAwLTEwIDUgNSAwIDAgMSAwIDEwem0wLThhMyAzIDAgMSAwIDAgNiAzIDMgMCAwIDAgMC02eiIvPjwvc3ZnPgo%3D"/></a>
 </p>
 
-<img src="divider.svg" width="100%" height="2" alt="">
+<img src="assets/divider.svg" width="100%" height="2" alt="">
 
 <details>
 <summary><h2>Technologies and Tools</h2></summary>
