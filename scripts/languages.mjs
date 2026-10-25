@@ -18,6 +18,7 @@ const MERGE = { C: 'C / C++', 'C++': 'C / C++' };     // lenguajes que se juntan
 
 const W = 880, PAD = 28, ROW = 32, CELL = 16, GAP = 6, PITCH = CELL + GAP;
 const BAR_X = 170;
+const STEP = 0.3; // segundos entre un bloque y el siguiente (más alto = más lento)
 const SEGMENTS = Math.floor((W - PAD - BAR_X + GAP) / PITCH); // la barra llega hasta el final de la tarjeta
 const HEAD = 52;
 
@@ -78,15 +79,14 @@ function render(rows, t) {
     labels += `<text class="n" x="${PAD}" y="${y + 13}">${esc(r.name)}</text>`;
     for (let i = 0; i < SEGMENTS; i++) {
       const x = BAR_X + i * PITCH;
-      if (i < filled) {
-        const delay = (0.25 + ri * 0.18 + i * 0.03).toFixed(2);
+      rects += `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${t.empty}"/>`;
+      if (i < filled) { // carga de batería: se enciende un bloque, luego el siguiente
+        const delay = (0.4 + ri * 0.12 + i * STEP).toFixed(2);
         const tip = i === filled - 1;
         const style = tip
-          ? `animation-delay:${delay}s,${(+delay + 0.5).toFixed(2)}s`
+          ? `animation-delay:${delay}s,${(+delay + 0.6).toFixed(2)}s`
           : `animation-delay:${delay}s`;
         rects += `<rect class="s${tip ? ' tip' : ''}" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${color}" style="${style}"/>`;
-      } else {
-        rects += `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${t.empty}"/>`;
       }
     }
   });
@@ -94,9 +94,9 @@ function render(rows, t) {
   const css = `
 .n{font:16px ui-monospace,SFMono-Regular,'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace;fill:${t.name}}
 .h{font:700 12px -apple-system,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:${t.title};letter-spacing:2.4px}
-.s{transform-box:fill-box;transform-origin:center;animation:pop .4s cubic-bezier(.2,.8,.2,1) backwards}
-.tip{animation:pop .4s cubic-bezier(.2,.8,.2,1) backwards,tip 2.4s ease-in-out infinite}
-@keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:none}}
+.s{animation:charge .6s linear backwards}
+.tip{animation:charge .6s linear backwards,tip 2.4s ease-in-out infinite}
+@keyframes charge{0%{opacity:0}15%{opacity:1}35%{opacity:.25}55%{opacity:1}75%{opacity:.5}100%{opacity:1}}
 @keyframes tip{0%,100%{opacity:1}50%{opacity:.35}}
 @media (prefers-reduced-motion:reduce){.s,.tip{animation:none!important}}`;
 
