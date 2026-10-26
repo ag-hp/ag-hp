@@ -1,12 +1,15 @@
 // languages: tarjeta ancha con barras de cuadrados que se rellenan con animación.
-// Lee el uso real de lenguajes de tus repositorios públicos (no forks).
+// Lee el uso real de lenguajes de tus repositorios (no forks). Con INCLUDE_PRIVATE=true cuenta también los privados.
 // Uso: node scripts/languages.mjs          (necesita GITHUB_TOKEN)
 //      node scripts/languages.mjs --demo   (datos de ejemplo para probar)
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const USER = process.env.GITHUB_USER || process.env.GITHUB_REPOSITORY_OWNER || 'tu-usuario';
-const TOKEN = process.env.GITHUB_TOKEN;
+// Para contar tus repos privados hace falta INCLUDE_PRIVATE=true y un token personal con permiso
+// de lectura en el secreto LANGUAGES_TOKEN (el token automático del workflow no puede leerlos).
+const TOKEN = process.env.LANGUAGES_TOKEN || process.env.GITHUB_TOKEN;
+const INCLUDE_PRIVATE = process.env.INCLUDE_PRIVATE === 'true';
 const OUT = process.env.OUTPUT_DIR || 'dist';
 const DEMO = process.argv.includes('--demo');
 
@@ -14,6 +17,10 @@ const DEMO = process.argv.includes('--demo');
 const MAX_ROWS = 7;                                   // cuántos lenguajes se muestran
 const EXCLUDE = ['Dockerfile', 'Makefile', 'Batchfile', 'Jupyter Notebook']; // no se cuentan
 const MERGE = { C: 'C / C++', 'C++': 'C / C++' };     // lenguajes que se juntan en una fila
+// Lenguajes que quieres que salgan SIEMPRE, aunque GitHub no los detecte en tus repos.
+// El número es el nivel de la barra respecto al lenguaje más usado (0.1 = muy poco, 1 = igual que el primero).
+// Si GitHub detecta ese lenguaje con más uso del indicado, se usa el real. Borra una línea para quitarlo.
+const MANUAL = { HTML: 0.5, CSS: 0.45, SQL: 0.4 };
 // -----------------------------------------------------------------------------
 
 const W = 880, PAD = 28, ROW = 32, CELL = 16, GAP = 6, PITCH = CELL + GAP;
@@ -34,8 +41,9 @@ const THEMES = {
 };
 
 async function fetchLanguages() {
+  const scope = INCLUDE_PRIVATE ? 'ownerAffiliations:OWNER' : 'ownerAffiliations:OWNER,privacy:PUBLIC'; // solo tus repos
   const query = `query($login:String!,$after:String){user(login:$login){
-    repositories(first:100,after:$after,ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC){
+    repositories(first:100,after:$after,${scope},isFork:false){
       pageInfo{hasNextPage endCursor}
       nodes{languages(first:20,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}}}`;
   const bytes = new Map();
@@ -125,9 +133,16 @@ ${labels}${rects}
 
 if (!DEMO && !TOKEN) { console.error('Falta GITHUB_TOKEN (o usa --demo).'); process.exit(1); }
 const bytes = DEMO ? demoLanguages() : await fetchLanguages();
+if (!DEMO) {
+  console.log('Detectado en tus repos:', [...bytes.entries()].sort((a, b) => b[1] - a[1]).map(([n, b]) => `${n} (${b})`).join(', ') || 'nada');
+}
+const topBytes = Math.max(0, ...bytes.values());
+for (const [name, level] of Object.entries(MANUAL)) {
+  bytes.set(name, Math.max(bytes.get(name) || 0, level * topBytes));
+}
 const rows = [...bytes.entries()].map(([name, b]) => ({ name, bytes: b }))
   .sort((a, b) => b.bytes - a.bytes).slice(0, MAX_ROWS);
-if (!rows.length) throw new Error('No se encontró ningún lenguaje en tus repositorios públicos.');
+if (!rows.length) throw new Error('No se encontró ningún lenguaje en tus repositorios.');
 mkdirSync(OUT, { recursive: true });
 for (const name of ['dark', 'light']) writeFileSync(join(OUT, `languages-${name}.svg`), render(rows, THEMES[name]));
-console.log(`languages | ${DEMO ? '(demo)' : USER} | ${rows.map((r) => r.name).join(', ')} | ${SEGMENTS} segmentos por barra`);
+console.log(`languages | ${DEMO ? '(demo)' : USER} | repos ${INCLUDE_PRIVATE ? 'públicos y privados' : 'públicos'} | ${rows.map((r) => r.name).join(', ')} | ${SEGMENTS} segmentos por barra`);
